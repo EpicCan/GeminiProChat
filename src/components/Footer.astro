@@ -1,0 +1,56 @@
+<footer>
+  <div class="max-w-[80vw] mx-auto flex flex-col items-center justify-center mb-[1em]">
+    <div class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+
+      {import.meta.env.BLOG_LINK && (
+        <>
+          <a b-slate-link href={import.meta.env.BLOG_LINK} target="_blank">Blog</a>
+        </>
+      )}
+
+      {import.meta.env.PARTNER_LINK1 && import.meta.env.PARTNER_LINK_TITLE1 && (
+        <>
+          <span class="px-1">|</span>
+          <a b-slate-link href={import.meta.env.PARTNER_LINK1} target="_blank">{import.meta.env.PARTNER_LINK_TITLE1}</a>
+        </>
+      )}
+
+      {import.meta.env.PARTNER_LINK2 && import.meta.env.PARTNER_LINK_TITLE2 && (
+        <>
+          <span class="px-1">|</span>
+          <a b-slate-link href={import.meta.env.PARTNER_LINK2} target="_blank">{import.meta.env.PARTNER_LINK_TITLE2}</a>
+        </>
+      )}
+    </div>
+
+    <p class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+      <a b-slate-link="" href="https://www.growbit.top/search/label/%23Gemini" target="_blank">Blog</a>
+      <span class="px-1">|</span>
+      <a b-slate-link="" href="https://www.chatgpt-ultra.top" target="_blank">ChatGPT</a>
+      <span class="px-1">|</span>
+      <a b-slate-link="" href="https://github.com/EpicCan/GeminiProChat" target="_blank">GitHub</a>
+    </p>
+
+    <p class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+      © 2023&nbsp;<a href="https://gemini-ai.top" target="_blank" class="font-bold">Gemini Pro Chat</a>. All rights reserved.
+    </p>
+    <p class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+      <a href="https://gemini-ai.top/privacy-policy" target="_blank">Privacy Policy</a>
+      <span class="px-1">|</span>
+      <a href="https://gemini-ai.top/terms-of-service" target="_blank">Terms of Service</a>
+    </p>
+
+    <div class="flex flex-wrap justify-center items-center text-xs op-30 my-2">
+      {import.meta.env.PRIVACY_POLICY_LINK && (
+        <a href={import.meta.env.PRIVACY_POLICY_LINK} target="_blank">Privacy Policy</a>
+      )}
+      {import.meta.env.TOS_LINK && (
+        <>
+          <span class="px-1">|</span>
+          <a href={import.meta.env.TOS_LINK} target="_blank">Terms of Service</a>
+        </>
+      )}
+    </div>
+
+  </div>
+</footer>
