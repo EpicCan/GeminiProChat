@@ -13,7 +13,6 @@
 > 
 > 根据[《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
 
-[ <img width="822" alt="image" src="https://github.com/EpicCan/GeminiProChat/assets/45425072/3f66c559-af65-49b1-91cc-110cf8fb1618"> ](https://gemini-ai.top)
 
 ## 部署
 
