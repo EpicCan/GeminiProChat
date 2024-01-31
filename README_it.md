@@ -6,7 +6,7 @@ Interfaccia utente web minimale per Gemini Pro Chat.
 
 Live demo: [Gemini Pro Chat](https://gemini-ai.top)
 
-[ <img width="822" alt="image" src="https://github.com/EpicCan/GeminiProChat/assets/45425072/3f66c559-af65-49b1-91cc-110cf8fb1618"> ](https://gemini-ai.top)
+[ ![image](https://github.com/EpicCan/GeminiProChat/assets/45425072/bdf3f49c-5d93-4c16-8660-d30c86881204) ](https://gemini-ai.top)
 
 ## Distribuire
 
